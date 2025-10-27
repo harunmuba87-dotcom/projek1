@@ -1,0 +1,144 @@
+/* DESTINASI PAGE */
+.e {
+  background: linear-gradient(to right, #009b87, #00bfa6);
+  color: white;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.e h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.e p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.g {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 60px 10%;
+  background: #f9f9f9;
+}
+
+.h {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.h img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.h h3 {
+  color: #007b83;
+  margin: 15px 0 10px;
+}
+
+.h p {
+  padding: 0 15px;
+  font-size: 0.95em;
+  color: #444;
+  min-height: 70px;
+}
+
+.h:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.i {
+  display: inline-block;
+  background-color: #00bfa6;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.i:hover {
+  background-color: #009b87;
+}
+
+/* Header utama */
+header {
+  display: flex;
+  justify-content: space-between;   /* logo + teks di kiri, menu di kanan */
+  align-items: center;
+  padding: 15px 60px;
+  background: linear-gradient(to right, #009688, #00bfa5); /* gradasi toska */
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Bagian logo dan teks “Explore Jawa Barat” */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* jarak antara logo dan teks */
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+}
+
+.logo h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Navigasi */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* jarak antar menu */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Efek tambahan untuk link aktif */
+nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+.j {
+  background: #007b83;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
