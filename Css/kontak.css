@@ -12,21 +12,25 @@ body {
   color: white;
   padding: 15px 0;
   text-align: center;
+
 }
 
-.b a {
+
+
+.a img {
+  width: 50px;
+  height: 50px;
+
+}
+
+
+.a a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
 }
 
-.b a:hover,
-.b .aktif {
-  text-decoration: underline;
-}
-
-/* Kontak Section */
 .c {
   max-width: 600px;
   margin: 50px auto;
@@ -74,8 +78,9 @@ body {
 /* Footer */
 .f {
   text-align: center;
-  background: #007b83;
+  background-color: #008b8b;
   color: white;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 50px;
 }
